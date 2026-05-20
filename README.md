@@ -84,7 +84,7 @@ I'm **Parthiban Nagarajan** — a **Senior Front-End Developer** passionate abou
 
 ### 💡 Quote I Live By
 
-> *"Never stop learning — because the tech you're mastering today will be replaced tomorrow. Stay curious, stay sharp."*
+> *"Never stop learning - because the tech you're mastering today will be replaced tomorrow. Stay curious, stay sharp."*
 
 ---
 
