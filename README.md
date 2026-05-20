@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I'm **Parthiban Nagarajan** — a **Senior Front-End Developer** passionate about building modern, scalable, and maintainable web applications with **Angular** and clean architecture.
+I'm **Parthiban Nagarajan** - a **Senior Front-End Developer** passionate about building modern, scalable, and maintainable web applications with **Angular** and clean architecture.
 
 ---
 
@@ -62,8 +62,8 @@ I'm **Parthiban Nagarajan** — a **Senior Front-End Developer** passionate abou
 
 ### 🌍 Languages
 
-- 🇬🇧 English — Fluent  
-- 🇫🇷 Français — Professionnel
+- 🇬🇧 English - Fluent  
+- 🇫🇷 Français - Professionnel
 
 ---
 
@@ -88,4 +88,4 @@ I'm **Parthiban Nagarajan** — a **Senior Front-End Developer** passionate abou
 
 ---
 
-Thanks for visiting my profile — feel free to connect, collaborate, or just say hello! 👋
+Thanks for visiting my profile - feel free to connect, collaborate, or just say hello! 👋
