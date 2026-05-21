@@ -1,0 +1,135 @@
+/* Design tokens — modern SaaS, multi-color depth */
+
+:root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Spacing (4/8pt grid, all multiples of 4) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-7: 28px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+  --s-14: 56px;
+  --s-16: 64px;
+  --s-18: 72px;
+  --s-20: 80px;
+  --s-24: 96px;
+  --s-32: 128px;
+
+  /* Radii */
+  --r-xs: 4px;
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 24px;
+  --r-full: 9999px;
+
+  /* Layout */
+  --col-w: 720px;
+  --col-w-wide: 1080px;
+
+  /* Borders */
+  --bw: 1px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur: 240ms;
+
+  /* Brand gradient stops (consistent across themes) */
+  --grad-1: #6366F1; /* indigo */
+  --grad-2: #EC4899; /* pink   */
+  --grad-3: #06B6D4; /* cyan   */
+  --grad-warm: #F59E0B; /* amber */
+}
+
+/* ── Dark (default) ─────────────────────────────── */
+[data-theme="dark"] {
+  --bg: #07070B;
+  --bg-2: #0C0C12;
+  --surface: rgba(255, 255, 255, 0.03);
+  --surface-strong: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --text: #FAFAFA;
+  --muted: #A8AAB4;
+  --subtle: #6B6E78;
+  --accent: var(--grad-1);
+  --accent-hover: #818CF8;
+  --status: #34D399;
+  --selection: rgba(99, 102, 241, 0.3);
+
+  /* Header */
+  --header-bg: rgba(7, 7, 11, 0.65);
+  --header-border: rgba(255, 255, 255, 0.06);
+
+  /* Card glass */
+  --card-bg:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.01) 100%);
+
+  /* Hero mesh gradient */
+  --mesh:
+    radial-gradient(ellipse 80% 60% at 80% 0%,
+      rgba(99, 102, 241, 0.35), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 0% 30%,
+      rgba(236, 72, 153, 0.22), transparent 60%),
+    radial-gradient(ellipse 60% 60% at 50% 100%,
+      rgba(6, 182, 212, 0.18), transparent 60%);
+
+  /* Decorator color */
+  --deco-color: rgba(255, 255, 255, 0.06);
+  --deco-color-strong: rgba(255, 255, 255, 0.12);
+
+  /* Inner glow on cards */
+  --card-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.04) inset,
+    0 24px 48px -24px rgba(0, 0, 0, 0.6);
+}
+
+/* ── Light ──────────────────────────────────────── */
+[data-theme="light"] {
+  --bg: #FAFAFB;
+  --bg-2: #FFFFFF;
+  --surface: rgba(255, 255, 255, 0.7);
+  --surface-strong: rgba(255, 255, 255, 0.95);
+  --border: rgba(15, 23, 42, 0.08);
+  --border-strong: rgba(15, 23, 42, 0.16);
+  --text: #0B0C12;
+  --muted: #4B4D58;
+  --subtle: #71747F;
+  --accent: #4F46E5;
+  --accent-hover: #4338CA;
+  --status: #10B981;
+  --selection: rgba(99, 102, 241, 0.18);
+
+  /* Header */
+  --header-bg: rgba(255, 255, 255, 0.75);
+  --header-border: rgba(15, 23, 42, 0.06);
+
+  --card-bg:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.78) 0%,
+      rgba(255, 255, 255, 0.55) 100%);
+
+  --mesh:
+    radial-gradient(ellipse 80% 60% at 80% 0%,
+      rgba(99, 102, 241, 0.18), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 0% 30%,
+      rgba(236, 72, 153, 0.12), transparent 60%),
+    radial-gradient(ellipse 60% 60% at 50% 100%,
+      rgba(6, 182, 212, 0.10), transparent 60%);
+
+  --deco-color: rgba(15, 23, 42, 0.08);
+  --deco-color-strong: rgba(15, 23, 42, 0.14);
+
+  --card-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 4px 16px -8px rgba(15, 23, 42, 0.10);
+}
