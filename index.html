@@ -1,649 +1,554 @@
-<!DOCTYPE HTML>
-<html lang="fr">
-	<head>
-		<title>Parthiban Nagarajan - Développeur Frontend Angular</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Portfolio de Parthiban Nagarajan - Développeur Frontend Angular avec 5+ ans d'expérience" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en" data-lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parthiban Nagarajan, Senior Frontend Developer, Angular and React</title>
+  <meta name="description" content="Senior frontend developer with 6+ years on Angular in production. Voice AI at Zaion. Angular 13 to 19, Signals, React 18, Jest, Playwright.">
+  <meta name="author" content="Parthiban Nagarajan">
+  <link rel="canonical" href="https://parthidev93.github.io/parthibannagarajan/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Parthiban Nagarajan, Senior Frontend Developer, Angular and React">
+  <meta property="og:description" content="Senior frontend developer with 6+ years on Angular. Voice AI platform, Angular migrations, React 18, Jest and Playwright.">
+  <meta property="og:url" content="https://parthidev93.github.io/parthibannagarajan/">
+  <meta property="og:image" content="https://parthidev93.github.io/parthibannagarajan/assets/images/cv-profile.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/main.css">
 
-		<!-- Navigation -->
-		<nav class="navbar">
-			<div class="nav-container">
-				<div class="nav-logo">
-					<a href="#home">
-						<div class="logo-container">
-							<div class="logo-circle">
-								<span class="logo-text">PN</span>
-							</div>
-						
-						</div>
-					</a>
-				</div>
-				
-				<div class="nav-menu" id="nav-menu">
-					<a href="#home" class="nav-link">
-						<i class="fas fa-home"></i>
-						<span>Accueil</span>
-					</a>
-					<a href="#experience" class="nav-link">
-						<i class="fas fa-briefcase"></i>
-						<span>Expérience</span>
-					</a>
-					<a href="#skills" class="nav-link">
-						<i class="fas fa-code"></i>
-						<span>Compétences</span>
-					</a>
-					<a href="#achievements" class="nav-link">
-						<i class="fas fa-trophy"></i>
-						<span>Réalisations</span>
-					</a>
-					<a href="#education" class="nav-link">
-						<i class="fas fa-graduation-cap"></i>
-						<span>Formation</span>
-					</a>
-					<a href="#contact" class="nav-link">
-						<i class="fas fa-envelope"></i>
-						<span>Contact</span>
-					</a>
-				</div>
+  <!-- Reusable SVG defs -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <!-- Skill icons -->
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+      <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></symbol>
 
-				<div class="nav-toggle" id="nav-toggle">
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
-				</div>
-			</div>
-		</nav>
+      <!-- Contact icons -->
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 11v6M8 8v.01M12 17v-3a2 2 0 0 1 4 0v3M12 11v6"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+      <symbol id="i-arrow-right" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+      <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></symbol>
 
-		<!-- Main Content -->
-		<main>
-			<!-- Hero Section -->
-			<section id="home" class="hero">
-				<div class="hero-container">
-					<div class="hero-content" data-aos="fade-up">
-						<h1 class="hero-title">
-							Bonjour, je suis<br>
-							<span class="highlight">Parthiban Nagarajan</span>
-						</h1>
-						<p class="hero-subtitle">Développeur Frontend Angular</p>
-						<p class="hero-description">
-							Avec plus de 5 ans d'expérience, je conçois des interfaces web modernes et performantes, centrées sur l'utilisateur. Rigoureux et orienté résultats, j'optimise en continu le code pour garantir fluidité, accessibilité et maintenabilité en environnement Agile.
-						</p>
-						<div class="hero-buttons">
-							<a href="#experience" class="btn btn-primary">Voir mon expérience</a>
-							<a href="#contact" class="btn btn-secondary">Me contacter</a>
-						</div>
-					</div>
-					<div class="hero-image" data-aos="fade-left">
-						<div class="profile-container">
-							<img src="assets/images/cv-profile.png" alt="Parthiban Nagarajan" class="profile-photo">
-							<div class="profile-overlay">
-						
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="hero-decoration">
-					<div class="floating-shape shape-1"></div>
-					<div class="floating-shape shape-2"></div>
-					<div class="floating-shape shape-3"></div>
-				</div>
-			</section>
+      <!-- Theme icons -->
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
 
-			<!-- Experience Section -->
-			<section id="experience" class="section experience-section">
-				<div class="section-decoration">
-					<div class="decoration-icon">
-						<i class="fas fa-briefcase"></i>
-					</div>
-				</div>
-				<div class="experience-decoration-bg">
-					<div class="floating-experience-shape shape-1"></div>
-					<div class="floating-experience-shape shape-2"></div>
-					<div class="floating-experience-shape shape-3"></div>
-				</div>
-				<div class="container">
-					<h2 class="section-title" data-aos="fade-up">Expérience Professionnelle</h2>
-					
-					<div class="experience-grid">
-						<div class="experience-card" data-aos="fade-up">
-							<div class="experience-decoration">
-								<div class="company-logo">
-									<i class="fas fa-building"></i>
-								</div>
-							</div>
-							<div class="experience-header">
-								<div class="experience-title-section">
-									<h3>Développeur Frontend ZAION</h3>
-									<div class="experience-badge">
-										<i class="fas fa-star"></i>
-										<span>Actuel</span>
-									</div>
-								</div>
-								<div class="experience-meta">
-									<div class="meta-item">
-										<i class="fas fa-building"></i>
-										<span class="company">Zaion</span>
-									</div>
-									<div class="meta-item">
-										<i class="fas fa-calendar-alt"></i>
-										<span class="period">12/2020 - Présent</span>
-									</div>
-									<div class="meta-item">
-										<i class="fas fa-map-marker-alt"></i>
-										<span class="location">Paris</span>
-									</div>
-								</div>
-							</div>
-							<div class="experience-content">
-								<div class="experience-details">
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Développement d'une plateforme SaaS d'analyse vocale (chatbot, callbot, dashboards)</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Migration d'Angular 13 à 19 avec architecture modulaire, lazy loading, smart/dumb comp et Reactive Forms</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Tests unitaires et E2E (Jest, Cypress) avec couverture de code suivie via SonarQube</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>State Management réactive avec RxJS et Signals</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Création de dashboards analytiques avancés avec AMCharts5</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Interfaces UI/UX modernes, performantes, accessibles et maintenables</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Travail en Scrum avec les équipes produit, backend et data à partir de maquettes Figma</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Documentation technique sur Confluence et suivi des tâches via JIRA</span>
-									</div>
-								</div>
-							</div>
-							<div class="tech-stack">
-								<span class="tech-tag">Angular 13-19</span>
-								<span class="tech-tag">Jest</span>
-								<span class="tech-tag">Cypress</span>
-								<span class="tech-tag">ReactJS</span>
-								<span class="tech-tag">SonarQube</span>
-								<span class="tech-tag">NestJS</span>
-								<span class="tech-tag">Node.js</span>
-								<span class="tech-tag">MongoDB</span>
-								<span class="tech-tag">SCSS</span>
-								<span class="tech-tag">GitLab</span>
-								<span class="tech-tag">Docker</span>
-								<span class="tech-tag">Figma</span>
-								<span class="tech-tag">JIRA</span>
-								<span class="tech-tag">Confluence</span>
-							</div>
-						</div>
+      <!-- Decorators -->
+      <symbol id="i-sparkle" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0 13.5 9.5 23 12 13.5 14.5 12 24 10.5 14.5 1 12 10.5 9.5 Z"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><line x1="4" y1="12" x2="20" y2="12"/></symbol>
+      <symbol id="i-asterisk" viewBox="0 0 24 24"><line x1="12" y1="3" x2="12" y2="21"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="5.6" y1="5.6" x2="18.4" y2="18.4"/><line x1="5.6" y1="18.4" x2="18.4" y2="5.6"/></symbol>
+      <symbol id="i-circle-dot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2" fill="currentColor"/></symbol>
+      <symbol id="i-zigzag" viewBox="0 0 80 16"><polyline points="0 8 10 2 20 14 30 2 40 14 50 2 60 14 70 2 80 8"/></symbol>
+      <symbol id="i-orbit" viewBox="0 0 80 80"><circle cx="40" cy="40" r="38"/><circle cx="40" cy="40" r="22"/><circle cx="40" cy="2" r="3" fill="currentColor"/><circle cx="62" cy="40" r="2.5" fill="currentColor"/></symbol>
+      <symbol id="i-bracket-l" viewBox="0 0 24 80"><polyline points="14 2 4 2 4 78 14 78"/></symbol>
+      <symbol id="i-bracket-r" viewBox="0 0 24 80"><polyline points="10 2 20 2 20 78 10 78"/></symbol>
+    </defs>
+  </svg>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
 
-						<div class="experience-card" data-aos="fade-up" data-aos-delay="100">
-							<div class="experience-decoration">
-								<div class="company-logo">
-									<i class="fas fa-flask"></i>
-								</div>
-							</div>
-							<div class="experience-header">
-								<div class="experience-title-section">
-									<h3>Développeur Frontend</h3>
-									<div class="experience-badge">
-										<i class="fas fa-clock"></i>
-										<span>6 mois</span>
-									</div>
-								</div>
-								<div class="experience-meta">
-									<div class="meta-item">
-										<i class="fas fa-building"></i>
-										<span class="company">Ennov Clinical</span>
-									</div>
-									<div class="meta-item">
-										<i class="fas fa-calendar-alt"></i>
-										<span class="period">10/2019 - 03/2020</span>
-									</div>
-									<div class="meta-item">
-										<i class="fas fa-map-marker-alt"></i>
-										<span class="location">Bordeaux</span>
-									</div>
-								</div>
-							</div>
-							<div class="experience-content">
-								<div class="experience-details">
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Développement d'une application web de suivi d'essais cliniques dans un contexte réglementé</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Migration de modules Delphi vers Angular 8 et Java 11, avec adaptation des spécifications</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Participation à la méthode Scrum sprints, daily meetings, revues de sprint</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Analyse fonctionnelle et technique pour garantir conformité et qualité des livrables</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Développement UI en Angular, livraison à l'équipe QA et participation aux revues de code</span>
-									</div>
-								</div>
-							</div>
-							<div class="tech-stack">
-								<span class="tech-tag">Angular 7/8</span>
-								<span class="tech-tag">Java 11</span>
-								<span class="tech-tag">LESS</span>
-								<span class="tech-tag">SVN</span>
-								<span class="tech-tag">Jenkins</span>
-								<span class="tech-tag">Redmine</span>
-								<span class="tech-tag">SonarQube</span>
-								<span class="tech-tag">Zanata</span>
-							</div>
-						</div>
+  <header class="header" id="header">
+    <div class="col col--wide header__inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand__avatar">
+          <img src="assets/images/cv-profile.png" alt="" loading="eager" decoding="async">
+        </span>
+        <span>Parthiban Nagarajan</span>
+      </a>
 
-						<div class="experience-card" data-aos="fade-up" data-aos-delay="200">
-							<div class="experience-decoration">
-								<div class="company-logo">
-									<i class="fas fa-fish"></i>
-								</div>
-							</div>
-							<div class="experience-header">
-								<div class="experience-title-section">
-									<h3>Développeur Web</h3>
-									<div class="experience-badge">
-										<i class="fas fa-clock"></i>
-										<span>6 mois</span>
-									</div>
-								</div>
-								<div class="experience-meta">
-									<div class="meta-item">
-										<i class="fas fa-building"></i>
-										<span class="company">ComptoirDesPecheurs</span>
-									</div>
-									<div class="meta-item">
-										<i class="fas fa-calendar-alt"></i>
-										<span class="period">03/2018 - 08/2018</span>
-									</div>
-									<div class="meta-item">
-										<i class="fas fa-map-marker-alt"></i>
-										<span class="location">Paris</span>
-									</div>
-								</div>
-							</div>
-							<div class="experience-content">
-								<div class="experience-details">
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Développement d'une application web dédiée à la pêche avec une interface moderne, claire et responsive</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Création d'une UI intuitive, mobile-first et axée sur l'expérience utilisateur</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Optimisation des performances front-end et de l'ergonomie globale de l'application</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Gestion des données utilisateurs via MySQL et contenus dynamiques côté serveur</span>
-									</div>
-									<div class="detail-item">
-										<i class="fas fa-check-circle"></i>
-										<span>Utilisation de Trello pour le suivi des tâches et Git/GitLab pour la gestion de version</span>
-									</div>
-								</div>
-							</div>
-							<div class="tech-stack">
-								<span class="tech-tag">HTML</span>
-								<span class="tech-tag">CSS</span>
-								<span class="tech-tag">Bootstrap</span>
-								<span class="tech-tag">JavaScript</span>
-								<span class="tech-tag">PHP</span>
-								<span class="tech-tag">MySQL</span>
-								<span class="tech-tag">Trello</span>
-								<span class="tech-tag">Git</span>
-								<span class="tech-tag">GitLab</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list" id="desktop-nav">
+          <li><a class="nav__link" href="#about" data-i18n="nav.about">About</a></li>
+          <li><a class="nav__link" href="#work" data-i18n="nav.work">Work</a></li>
+          <li><a class="nav__link" href="#skills" data-i18n="nav.skills">Skills</a></li>
+          <li><a class="nav__link" href="#education" data-i18n="nav.education">Education</a></li>
+          <li><a class="nav__link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="controls">
+          <button type="button" class="ctrl ctrl--lang" id="lang-toggle" aria-label="Switch language">
+            <span class="ctrl__lang-en">EN</span>
+            <span class="ctrl__lang-divider" aria-hidden="true"></span>
+            <span class="ctrl__lang-fr">FR</span>
+          </button>
+          <button type="button" class="ctrl ctrl--theme" id="theme-toggle" aria-label="Switch theme" aria-pressed="true">
+            <svg class="ctrl__theme-icon ctrl__theme-icon--sun" aria-hidden="true"><use href="#i-sun"/></svg>
+            <svg class="ctrl__theme-icon ctrl__theme-icon--moon" aria-hidden="true"><use href="#i-moon"/></svg>
+          </button>
+        </div>
+      </nav>
 
-			<!-- Skills Section -->
-			<section id="skills" class="section skills-section">
-				<div class="section-decoration">
-					<div class="decoration-icon">
-						<i class="fas fa-code"></i>
-					</div>
-				</div>
-				<div class="container">
-					<h2 class="section-title" data-aos="fade-up">Compétences Techniques</h2>
-					
-					<div class="skills-grid">
-						<div class="skill-category" data-aos="fade-up">
-							<div class="skill-header">
-								<i class="fas fa-code"></i>
-								<h3>Frontend</h3>
-							</div>
-							<div class="skill-items">
-								<span class="skill-item">Angular</span>
-								<span class="skill-item">ReactJS</span>
-								<span class="skill-item">Next.js</span>
-								<span class="skill-item">TypeScript</span>
-								<span class="skill-item">HTML5</span>
-								<span class="skill-item">SCSS/CSS3</span>
-							</div>
-						</div>
+      <button type="button" class="ctrl ctrl--menu" id="menu-toggle" aria-expanded="false" aria-controls="mobile-sheet" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
 
-						<div class="skill-category" data-aos="fade-up" data-aos-delay="100">
-							<div class="skill-header">
-								<i class="fas fa-server"></i>
-								<h3>Backend & Tools</h3>
-							</div>
-							<div class="skill-items">
-								<span class="skill-item">NestJS</span>
-								<span class="skill-item">Node.js</span>
-								<span class="skill-item">RxJS</span>
-								<span class="skill-item">MongoDB</span>
-								<span class="skill-item">Express</span>
-							</div>
-						</div>
+  <div class="sheet" id="mobile-sheet" data-open="false" aria-hidden="true">
+    <ul class="sheet__list">
+      <li><a class="sheet__link" href="#about" data-i18n="nav.about">About</a></li>
+      <li><a class="sheet__link" href="#work" data-i18n="nav.work">Work</a></li>
+      <li><a class="sheet__link" href="#skills" data-i18n="nav.skills">Skills</a></li>
+      <li><a class="sheet__link" href="#education" data-i18n="nav.education">Education</a></li>
+      <li><a class="sheet__link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="controls sheet__controls">
+      <button type="button" class="ctrl ctrl--lang" id="lang-toggle-m" aria-label="Switch language">
+        <span class="ctrl__lang-en">EN</span>
+        <span class="ctrl__lang-divider" aria-hidden="true"></span>
+        <span class="ctrl__lang-fr">FR</span>
+      </button>
+      <button type="button" class="ctrl ctrl--theme" id="theme-toggle-m" aria-label="Switch theme" aria-pressed="true">
+        <svg class="ctrl__theme-icon ctrl__theme-icon--sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="ctrl__theme-icon ctrl__theme-icon--moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+    </div>
+  </div>
 
-						<div class="skill-category" data-aos="fade-up" data-aos-delay="200">
-							<div class="skill-header">
-								<i class="fas fa-vial"></i>
-								<h3>Testing & Quality</h3>
-							</div>
-							<div class="skill-items">
-								<span class="skill-item">Jest</span>
-								<span class="skill-item">Cypress</span>
-								<span class="skill-item">SonarQube</span>
-							</div>
-						</div>
+  <main id="main">
+    <div id="top"></div>
 
-						<div class="skill-category" data-aos="fade-up" data-aos-delay="300">
-							<div class="skill-header">
-								<i class="fas fa-chart-line"></i>
-								<h3>Data & Analytics</h3>
-							</div>
-							<div class="skill-items">
-								<span class="skill-item">AMCharts5</span>
-								<span class="skill-item">Amplitude</span>
-								<span class="skill-item">Dashboards</span>
-							</div>
-						</div>
+    <!-- ───────── Hero ───────── -->
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- Floating decorators -->
+      <svg class="deco deco--sparkle deco--sparkle-1" aria-hidden="true"><use href="#i-sparkle"/></svg>
+      <svg class="deco deco--sparkle deco--sparkle-2" aria-hidden="true"><use href="#i-sparkle"/></svg>
+      <svg class="deco deco--sparkle deco--sparkle-3" aria-hidden="true"><use href="#i-sparkle"/></svg>
+      <svg class="deco deco--orbit" aria-hidden="true"><use href="#i-orbit"/></svg>
+      <svg class="deco deco--plus deco--plus-1" aria-hidden="true"><use href="#i-plus"/></svg>
+      <svg class="deco deco--plus deco--plus-2" aria-hidden="true"><use href="#i-plus"/></svg>
+      <svg class="deco deco--circle" aria-hidden="true"><use href="#i-circle-dot"/></svg>
 
-						<div class="skill-category" data-aos="fade-up" data-aos-delay="400">
-							<div class="skill-header">
-								<i class="fas fa-tools"></i>
-								<h3>DevOps & Collaboration</h3>
-							</div>
-							<div class="skill-items">
-								<span class="skill-item">Git / GitLab</span>
-								<span class="skill-item">Docker</span>
-								<span class="skill-item">Figma</span>
-								<span class="skill-item">JIRA</span>
-								<span class="skill-item">Confluence</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+      <div class="col col--wide">
+        <div class="hero__grid">
+          <div class="reveal">
+            <span class="hero__pill">
+              <span class="hero__pill__badge">v6.0</span>
+              <span data-i18n="hero.pill">6+ years on Angular in production</span>
+            </span>
 
-			<!-- Achievements Section -->
-			<section id="achievements" class="section">
-				<div class="container">
-					<h2 class="section-title" data-aos="fade-up">Réalisations Clés</h2>
-					
-					<div class="achievements-grid">
-						<div class="achievement-card" data-aos="fade-up">
-							<div class="achievement-icon">
-								<i class="fas fa-rocket"></i>
-							</div>
-							<h3>Migration Angular 13 à 19</h3>
-							<p>Modernisation de l'application, résolution des conflits de dépendances, améliorant les temps de chargement de 40%.</p>
-						</div>
+            <h1 id="hero-title" class="hero__h1">
+              <span data-i18n="hero.h1.line1">Frontend that</span>
+              <span class="highlight" data-i18n="hero.h1.line2">ships in production</span>
+            </h1>
 
-						<div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
-							<div class="achievement-icon">
-								<i class="fas fa-chart-bar"></i>
-							</div>
-							<h3>Création Dashboards Analytiques</h3>
-							<p>Développement de tableaux de bord interactifs intégrant plusieurs sources de données.</p>
-						</div>
+            <p class="hero__lede" data-i18n="hero.lede">
+              I'm Parthiban, senior frontend developer at <a href="https://zaion.ai" target="_blank" rel="noopener">Zaion</a> in Paris. I lead the frontend of a Voice AI SaaS, migrated the platform from Angular 13 to 19, and ship features in a mixed Angular and React codebase.
+            </p>
 
-						<div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
-							<div class="achievement-icon">
-								<i class="fas fa-bug"></i>
-							</div>
-							<h3>Amélioration Couverture</h3>
-							<p>Refactorisation du code, portant la couverture à 90% et réduisant les bugs de 50%.</p>
-						</div>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#contact">
+                <span data-i18n="hero.cta.primary">Hire me</span>
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+              </a>
+              <a class="btn" href="#work" data-i18n="hero.cta.secondary">See my work</a>
+            </div>
 
-						<div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
-							<div class="achievement-icon">
-								<i class="fas fa-mobile-alt"></i>
-							</div>
-							<h3>Optimisation Interface Utilisateur</h3>
-							<p>Mise en place d'un state management réactif avec RxJS, optimisant la réactivité et la fluidité de l'interface.</p>
-						</div>
-					</div>
-				</div>
-			</section>
+            <div class="hero__contact">
+              <a href="mailto:parthidev03@gmail.com">
+                <svg aria-hidden="true"><use href="#i-mail"/></svg>
+                parthidev03@gmail.com
+              </a>
+              <a href="https://www.linkedin.com/in/parthiban-nagarajan" target="_blank" rel="noopener noreferrer">
+                <svg aria-hidden="true"><use href="#i-linkedin"/></svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com/parthidev93" target="_blank" rel="noopener noreferrer">
+                <svg aria-hidden="true"><use href="#i-github"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
 
-			<!-- Education Section -->
-			<section id="education" class="section">
-				<div class="container">
-					<h2 class="section-title" data-aos="fade-up">Formation</h2>
-					
-					<div class="education-grid">
-						<div class="education-card" data-aos="fade-up">
-							<div class="education-icon">
-								<i class="fas fa-graduation-cap"></i>
-							</div>
-							<div class="education-content">
-								<h3>Diplôme Développeur FullStack</h3>
-								<p class="institution">M21 Formation - Bordeaux</p>
-								<p class="period">05/2020 - 08/2020</p>
-								<p>Veille technologique régulière via des ressources fiables et à jour</p>
-							</div>
-						</div>
+          <aside class="hero__card reveal reveal--delay-1" aria-label="Profile card">
+            <div class="hero__avatar">
+              <img src="assets/images/cv-profile.png" alt="Portrait of Parthiban Nagarajan" loading="eager" decoding="async">
+            </div>
+            <div class="hero__card-name">Parthiban Nagarajan</div>
+            <div class="hero__card-role" data-i18n="card.role">Senior Frontend Developer, Angular and React</div>
+            <span class="pill" style="font-size: 12px;">
+              <span class="pill__dot" aria-hidden="true"></span>
+              <span data-i18n="card.status">Available for senior roles</span>
+            </span>
+            <ul class="hero__card-rows">
+              <li class="hero__card-row">
+                <span class="hero__card-key" data-i18n="card.k1">now</span>
+                <span class="hero__card-val">Zaion · Voice AI</span>
+              </li>
+              <li class="hero__card-row">
+                <span class="hero__card-key" data-i18n="card.k2">stack</span>
+                <span class="hero__card-val">Angular · React</span>
+              </li>
+              <li class="hero__card-row">
+                <span class="hero__card-key" data-i18n="card.k3">based</span>
+                <span class="hero__card-val">Le Port-Marly, FR</span>
+              </li>
+              <li class="hero__card-row">
+                <span class="hero__card-key" data-i18n="card.k4">remote</span>
+                <span class="hero__card-val">EU friendly</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
 
-						<div class="education-card" data-aos="fade-up" data-aos-delay="100">
-							<div class="education-icon">
-								<i class="fas fa-university"></i>
-							</div>
-							<div class="education-content">
-								<h3>MSc en Electronique et Télécommunications</h3>
-								<p class="institution">ISEP</p>
-								<p class="period">2016 - 2018</p>
-								<p>Paris</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+        <ul class="stats reveal reveal--delay-2" aria-label="Key numbers">
+          <li class="stat">
+            <div class="stat__num" data-count="6" data-suffix="+">0</div>
+            <div class="stat__label" data-i18n="stats.years">Years in production</div>
+          </li>
+          <li class="stat">
+            <div class="stat__num" data-count="6">0</div>
+            <div class="stat__label" data-i18n="stats.migrations">Angular major upgrades</div>
+          </li>
+          <li class="stat">
+            <div class="stat__num" data-count="3">0</div>
+            <div class="stat__label" data-i18n="stats.companies">Companies shipped at</div>
+          </li>
+          <li class="stat">
+            <div class="stat__num" data-count="3">0</div>
+            <div class="stat__label" data-i18n="stats.languages">Languages spoken</div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-			<!-- Contact Section -->
-			<section id="contact" class="section">
-				<div class="container">
-					<h2 class="section-title" data-aos="fade-up">Contact</h2>
-					
-					<div class="contact-grid">
-						<div class="contact-info" data-aos="fade-up">
-							<h3>Informations de contact</h3>
-							<div class="contact-list">
-								<div class="contact-item">
-									<i class="fas fa-envelope"></i>
-									<a href="mailto:parthidev03@gmail.com">parthidev03@gmail.com</a>
-								</div>
-								<div class="contact-item">
-									<i class="fas fa-phone"></i>
-									<a href="tel:+33758141687">+33 7 58 14 16 87</a>
-								</div>
-								<div class="contact-item">
-									<i class="fas fa-map-marker-alt"></i>
-									<span>26 rue de Paris, 78560 Le Port-Marly</span>
-								</div>
-								<div class="contact-item">
-									<i class="fab fa-linkedin"></i>
-									<a href="https://www.linkedin.com/in/parthiban-nagarajan" target="_blank">LinkedIn Profile</a>
-								</div>
-							</div>
-						</div>
+    <!-- ───────── About ───────── -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <svg class="deco deco--asterisk deco--asterisk-1" aria-hidden="true"><use href="#i-asterisk"/></svg>
+      <div class="col col--wide">
+        <div class="card card--glow about reveal">
+          <span class="section__eyebrow" data-i18n="about.eyebrow">About</span>
+          <h2 id="about-title" class="section__title" data-i18n="about.title">Pragmatic frontend, built to ship.</h2>
 
+          <p data-i18n="about.p1">Frontend developer with 6+ years on Angular in production. Currently at Zaion, working with backend, data, product, design and QA teams on a Voice AI platform (chatbot, callbot, real-time analytics dashboards).</p>
+          <p data-i18n="about.p2">Moved the platform from Angular 13 to Angular 19 last year, covering six major versions. Gradually moving parts of the state layer to Signals where it actually helps. Also write React 18 features in a mixed Angular and React codebase. Day-to-day work covers Figma to production, Scrum, Jest, Playwright, GitLab CI/CD and Docker.</p>
 
-					</div>
-				</div>
-			</section>
+          <div class="about__divider"></div>
 
-			<!-- Languages Section -->
-			<section class="section languages-section">
-				<div class="container">
-					<h2 class="section-title" data-aos="fade-up">Langues</h2>
-					<div class="languages-container">
-						<div class="language-entry" data-aos="fade-up">
-							<div class="language-info">
-								<h3>Français</h3>
-								<p class="language-level">Opérationnel</p>
-							</div>
-							<div class="language-rating">
-								<div class="rating-circle filled"></div>
-								<div class="rating-circle filled"></div>
-								<div class="rating-circle filled"></div>
-								<div class="rating-circle"></div>
-								<div class="rating-circle"></div>
-							</div>
-						</div>
-						
-						<div class="language-divider"></div>
-						
-						<div class="language-entry" data-aos="fade-up" data-aos-delay="100">
-							<div class="language-info">
-								<h3>Anglais</h3>
-								<p class="language-level">Bilingue</p>
-							</div>
-							<div class="language-rating">
-								<div class="rating-circle filled"></div>
-								<div class="rating-circle filled"></div>
-								<div class="rating-circle filled"></div>
-								<div class="rating-circle filled"></div>
-								<div class="rating-circle"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
+          <p class="about__heading" data-i18n="about.techHeading">Key technologies</p>
+          <div class="tags">
+            <span class="tag">Angular 13 to 19</span>
+            <span class="tag">Angular Signals</span>
+            <span class="tag">React 18</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">RxJS</span>
+            <span class="tag">Jest</span>
+            <span class="tag">Playwright</span>
+            <span class="tag">SonarQube</span>
+            <span class="tag">GitLab CI/CD</span>
+            <span class="tag">Docker</span>
+            <span class="tag">AMCharts 5</span>
+            <span class="tag">REST APIs</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<!-- Footer -->
-		<footer class="footer">
-			<div class="footer-decoration">
-				<div class="footer-shape shape-left"></div>
-				<div class="footer-shape shape-right"></div>
-			</div>
-			<div class="container">
-				<div class="footer-content">
-					<div class="footer-icon">
-						<i class="fas fa-code"></i>
-					</div>
-					<div class="footer-text">
-						<p class="footer-copyright">&copy; 2025 Parthiban Nagarajan. Tous droits réservés.</p>
-						<p class="footer-subtitle">Développeur Frontend Angular</p>
-					</div>
-					<div class="footer-divider">
-						<div class="divider-line"></div>
-						<div class="divider-dot"></div>
-						<div class="divider-line"></div>
-					</div>
-					<div class="footer-links">
-						<a href="#home" class="footer-link">
-							<i class="fas fa-home"></i>
-							<span>Accueil</span>
-						</a>
-						<a href="#contact" class="footer-link">
-							<i class="fas fa-envelope"></i>
-							<span>Contact</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</footer>
+    <!-- ───────── Work ───────── -->
+    <section id="work" class="section" aria-labelledby="work-title">
+      <svg class="deco deco--zigzag" aria-hidden="true"><use href="#i-zigzag"/></svg>
+      <svg class="deco deco--plus deco--plus-3" aria-hidden="true"><use href="#i-plus"/></svg>
+      <div class="col col--wide">
+        <div class="reveal">
+          <span class="section__eyebrow" data-i18n="work.eyebrow">Experience</span>
+          <h2 id="work-title" class="section__title" data-i18n="work.title">Where I have shipped.</h2>
+          <p class="section__lede" data-i18n="work.lede">Three roles, six years, all on real products with real users.</p>
+        </div>
 
-		<!-- Scripts -->
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script>
-			// Initialize AOS
-			AOS.init({
-				duration: 800,
-				easing: 'ease-in-out',
-				once: true,
-				offset: 100
-			});
+        <ol class="work">
+          <li class="work__item reveal">
+            <div class="work__head">
+              <div class="work__company">
+                <div class="work__logo work__logo--zaion" aria-hidden="true">Z</div>
+                <div>
+                  <h3 class="work__role" data-i18n="exp.zaion.role">Senior Frontend Developer</h3>
+                  <p class="work__company-name"><strong data-i18n="exp.zaion.company">Zaion</strong> · <span data-i18n="exp.zaion.location">Paris, France</span></p>
+                </div>
+              </div>
+              <span class="work__period">
+                <span data-i18n="exp.zaion.period">Dec 2020 to Present</span>
+                <span class="work__current" data-i18n="exp.current">Current</span>
+              </span>
+            </div>
+            <p class="work__context" data-i18n="exp.zaion.context">Voice AI SaaS for enterprise clients (chatbot, callbot, voice analytics).</p>
+            <ul class="work__list">
+              <li data-i18n="exp.zaion.b1">Senior frontend on the Voice AI platform. Architecture, code reviews and frontend tooling, working with backend (NestJS) and product teams.</li>
+              <li data-i18n="exp.zaion.b2">Moved the platform from Angular 13 to Angular 19, six majors in total. Cleaned up old NgModule patterns, moved to lazy-loaded standalone components where it made sense, and reworked the legacy Reactive Forms code.</li>
+              <li data-i18n="exp.zaion.b3">Introduced Angular Signals alongside the existing RxJS, not a full rewrite. Aligned the approach with the team first. RxJS for streams, Signals for component state.</li>
+              <li data-i18n="exp.zaion.b4">Built and maintain a shared component library used across the platform. Other teams contribute components back to it.</li>
+              <li data-i18n="exp.zaion.b5">Real-time voice analytics dashboards with AMCharts 5. Built with the data team to define the live event contracts.</li>
+              <li data-i18n="exp.zaion.b6">Write React 18 features (with Hooks) for newer modules in the mixed Angular and React codebase.</li>
+              <li data-i18n="exp.zaion.b7">Set up Jest unit tests, Playwright E2E and SonarQube quality gates. Test strategy coordinated with QA.</li>
+              <li data-i18n="exp.zaion.b8">Contribute to the GitLab CI/CD pipeline and Docker-based delivery.</li>
+              <li data-i18n="exp.zaion.b9">Daily Scrum work with product, backend (NestJS, Node), data, design and QA. Translate Figma mockups into production features end-to-end.</li>
+            </ul>
+            <div class="tags work__stack" aria-label="Stack">
+              <span class="tag">Angular 13 to 19</span>
+              <span class="tag">Signals</span>
+              <span class="tag">React 18</span>
+              <span class="tag">RxJS</span>
+              <span class="tag">Playwright</span>
+              <span class="tag">AMCharts 5</span>
+              <span class="tag">GitLab CI/CD</span>
+              <span class="tag">NestJS</span>
+            </div>
+          </li>
 
-			// Mobile Navigation Toggle
-			const navToggle = document.getElementById('nav-toggle');
-			const navMenu = document.getElementById('nav-menu');
+          <li class="work__item reveal">
+            <div class="work__head">
+              <div class="work__company">
+                <div class="work__logo work__logo--ennov" aria-hidden="true">E</div>
+                <div>
+                  <h3 class="work__role" data-i18n="exp.ennov.role">Frontend Developer</h3>
+                  <p class="work__company-name"><strong data-i18n="exp.ennov.company">Ennov Clinical</strong> · <span data-i18n="exp.ennov.location">Bordeaux, France</span></p>
+                </div>
+              </div>
+              <span class="work__period" data-i18n="exp.ennov.period">Oct 2019 to Oct 2020</span>
+            </div>
+            <p class="work__context" data-i18n="exp.ennov.context">Clinical trial monitoring application. Regulated software, documentation-heavy.</p>
+            <ul class="work__list">
+              <li data-i18n="exp.ennov.b1">Migrated legacy Delphi modules to Angular 8 and Java 11. Translated existing logic and adapted it to compliance rules with the functional analysts.</li>
+              <li data-i18n="exp.ennov.b2">Built Angular UI components following the team's existing design patterns.</li>
+              <li data-i18n="exp.ennov.b3">Worked closely with QA and the regulatory team. Every feature shipped with tests and documentation.</li>
+              <li data-i18n="exp.ennov.b4">Code reviews, sprint planning and sprint reviews with the engineering team.</li>
+            </ul>
+            <div class="tags work__stack" aria-label="Stack">
+              <span class="tag">Angular 7 and 8</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Java 11</span>
+              <span class="tag">LESS</span>
+              <span class="tag">Jenkins</span>
+              <span class="tag">SonarQube</span>
+            </div>
+          </li>
 
-			navToggle.addEventListener('click', () => {
-				navMenu.classList.toggle('active');
-				navToggle.classList.toggle('active');
-			});
+          <li class="work__item reveal">
+            <div class="work__head">
+              <div class="work__company">
+                <div class="work__logo work__logo--pecheurs" aria-hidden="true">C</div>
+                <div>
+                  <h3 class="work__role" data-i18n="exp.pecheurs.role">Web Developer</h3>
+                  <p class="work__company-name"><strong data-i18n="exp.pecheurs.company">Comptoir des Pêcheurs</strong> · <span data-i18n="exp.pecheurs.location">France</span></p>
+                </div>
+              </div>
+              <span class="work__period" data-i18n="exp.pecheurs.period">Mar 2018 to Aug 2018</span>
+            </div>
+            <p class="work__context" data-i18n="exp.pecheurs.context">Web application for a fishing community.</p>
+            <ul class="work__list">
+              <li data-i18n="exp.pecheurs.b1">Designed and built the mobile-first responsive UI with the client.</li>
+              <li data-i18n="exp.pecheurs.b2">Server-side content and user data with PHP and MySQL. Git and GitLab for version control.</li>
+            </ul>
+            <div class="tags work__stack" aria-label="Stack">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-			// Close mobile menu when clicking on a link
-			document.querySelectorAll('.nav-link').forEach(link => {
-				link.addEventListener('click', () => {
-					navMenu.classList.remove('active');
-					navToggle.classList.remove('active');
-				});
-			});
+    <!-- ───────── Skills ───────── -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <svg class="deco deco--orbit deco--orbit-2" aria-hidden="true"><use href="#i-orbit"/></svg>
+      <svg class="deco deco--asterisk deco--asterisk-2" aria-hidden="true"><use href="#i-asterisk"/></svg>
+      <div class="col col--wide">
+        <div class="reveal">
+          <span class="section__eyebrow" data-i18n="skills.eyebrow">Skills</span>
+          <h2 id="skills-title" class="section__title" data-i18n="skills.title">How I work, and what I use.</h2>
+          <p class="section__lede" data-i18n="skills.lede">Current stable versions across the stack. What I ship in production today.</p>
+        </div>
 
-			// Smooth scrolling for navigation links
-			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-				anchor.addEventListener('click', function (e) {
-					e.preventDefault();
-					const target = document.querySelector(this.getAttribute('href'));
-					if (target) {
-						target.scrollIntoView({
-							behavior: 'smooth',
-							block: 'start'
-						});
-					}
-				});
-			});
+        <ul class="skills">
+          <li class="skill skill--c1 reveal">
+            <div class="skill__head">
+              <div class="skill__icon"><svg aria-hidden="true"><use href="#i-code"/></svg></div>
+              <h3 class="skill__title" data-i18n="skills.s1.title">Frontend</h3>
+            </div>
+            <div class="tags skill__tags" aria-label="Current versions">
+              <span class="tag tag--current">Angular 19</span>
+              <span class="tag tag--current">React 18</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Signals</span>
+            </div>
+            <p class="skill__desc" data-i18n="skills.s1.text">Angular 19 (Signals, standalone components, lazy loading), React 18, TypeScript, JavaScript ES6+, RxJS, Reactive Forms, HTML5, CSS3, SCSS, LESS, Bootstrap. Upgraded across six Angular majors; comfortable adopting new releases.</p>
+          </li>
+          <li class="skill skill--c2 reveal reveal--delay-1">
+            <div class="skill__head">
+              <div class="skill__icon"><svg aria-hidden="true"><use href="#i-circle-dot"/></svg></div>
+              <h3 class="skill__title" data-i18n="skills.s2.title">State management</h3>
+            </div>
+            <div class="tags skill__tags" aria-label="Current versions">
+              <span class="tag tag--current">Signals</span>
+              <span class="tag">NgRx</span>
+              <span class="tag">RxJS 7+</span>
+              <span class="tag">TanStack Query</span>
+            </div>
+            <p class="skill__desc" data-i18n="skills.s2.text">Angular Signals, NgRx, RxJS 7+, Redux, Zustand, React Query (TanStack Query). Modern state patterns on current framework versions.</p>
+          </li>
+          <li class="skill skill--c3 reveal reveal--delay-2">
+            <div class="skill__head">
+              <div class="skill__icon"><svg aria-hidden="true"><use href="#i-orbit"/></svg></div>
+              <h3 class="skill__title" data-i18n="skills.s3.title">Data visualization</h3>
+            </div>
+            <div class="tags skill__tags" aria-label="Current versions">
+              <span class="tag tag--current">AMCharts 5</span>
+              <span class="tag">D3.js</span>
+              <span class="tag">Chart.js 4</span>
+            </div>
+            <p class="skill__desc" data-i18n="skills.s3.text">AMCharts 5, D3.js, Highcharts, Chart.js 4, custom SVG (paths, animations, interactive shapes). Live dashboards on current charting libraries.</p>
+          </li>
+          <li class="skill skill--c4 reveal">
+            <div class="skill__head">
+              <div class="skill__icon"><svg aria-hidden="true"><use href="#i-layers"/></svg></div>
+              <h3 class="skill__title" data-i18n="skills.s4.title">Architecture</h3>
+            </div>
+            <div class="tags skill__tags" aria-label="Patterns">
+              <span class="tag tag--current">Standalone</span>
+              <span class="tag">Lazy loading</span>
+              <span class="tag">Design systems</span>
+            </div>
+            <p class="skill__desc" data-i18n="skills.s4.text">Modular design, lazy loading, smart and dumb component split, shared component libraries, design systems, micro-frontends, scalable frontend architecture.</p>
+          </li>
+          <li class="skill skill--c5 reveal reveal--delay-1">
+            <div class="skill__head">
+              <div class="skill__icon"><svg aria-hidden="true"><use href="#i-shield"/></svg></div>
+              <h3 class="skill__title" data-i18n="skills.s5.title">Testing &amp; quality</h3>
+            </div>
+            <div class="tags skill__tags" aria-label="Current versions">
+              <span class="tag tag--current">Playwright</span>
+              <span class="tag">Jest</span>
+              <span class="tag">Cypress</span>
+              <span class="tag">SonarQube</span>
+            </div>
+            <p class="skill__desc" data-i18n="skills.s5.text">Jest, Playwright, Cypress, SonarQube on current toolchains. Unit and E2E testing, code reviews, quality gates, Lighthouse, Core Web Vitals.</p>
+          </li>
+          <li class="skill skill--c6 reveal reveal--delay-2">
+            <div class="skill__head">
+              <div class="skill__icon"><svg aria-hidden="true"><use href="#i-tool"/></svg></div>
+              <h3 class="skill__title" data-i18n="skills.s6.title">Tools &amp; delivery</h3>
+            </div>
+            <div class="tags skill__tags" aria-label="Current versions">
+              <span class="tag tag--current">GitLab CI/CD</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Storybook</span>
+            </div>
+            <p class="skill__desc" data-i18n="skills.s6.text">Git, GitLab CI/CD, Docker, Jenkins, Jira, Confluence, Figma, Postman, Storybook. CI/CD and delivery on modern pipelines.</p>
+          </li>
+          <li class="skill skill--c7 reveal">
+            <div class="skill__head">
+              <div class="skill__icon"><svg aria-hidden="true"><use href="#i-users"/></svg></div>
+              <h3 class="skill__title" data-i18n="skills.s7.title">Collaboration</h3>
+            </div>
+            <div class="tags skill__tags" aria-label="Methods">
+              <span class="tag">Scrum</span>
+              <span class="tag">Figma</span>
+              <span class="tag">Jira</span>
+            </div>
+            <p class="skill__desc" data-i18n="skills.s7.text">Scrum, cross-functional work with backend, data, product, design and QA. Figma to production. Technical alignment with team members.</p>
+          </li>
+          <li class="skill skill--c8 reveal reveal--delay-1">
+            <div class="skill__head">
+              <div class="skill__icon"><svg aria-hidden="true"><use href="#i-server"/></svg></div>
+              <h3 class="skill__title" data-i18n="skills.s8.title">Backend exposure</h3>
+            </div>
+            <div class="tags skill__tags" aria-label="Current versions">
+              <span class="tag tag--current">NestJS</span>
+              <span class="tag">Node.js LTS</span>
+              <span class="tag">MongoDB</span>
+            </div>
+            <p class="skill__desc" data-i18n="skills.s8.text">Node.js LTS, NestJS, MongoDB, REST APIs, WebSocket, Java, Spring Boot, Hibernate, JPA, SQL. Recent framework versions in production contexts.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-			// Navbar scroll effect
-			window.addEventListener('scroll', function() {
-				const navbar = document.querySelector('.navbar');
-				if (window.scrollY > 100) {
-					navbar.classList.add('scrolled');
-				} else {
-					navbar.classList.remove('scrolled');
-				}
-			});
+    <!-- ───────── Education ───────── -->
+    <section id="education" class="section" aria-labelledby="education-title">
+      <svg class="deco deco--circle deco--circle-2" aria-hidden="true"><use href="#i-circle-dot"/></svg>
+      <div class="col col--wide">
+        <div class="reveal">
+          <span class="section__eyebrow" data-i18n="education.eyebrow">Education</span>
+          <h2 id="education-title" class="section__title" data-i18n="education.title">Background &amp; languages.</h2>
+        </div>
 
+        <ul class="edu">
+          <li class="edu__item reveal">
+            <span class="edu__year" data-i18n="edu.1.period">2020</span>
+            <div>
+              <p class="edu__degree" data-i18n="edu.1.title">Full Stack Java Developer Certification</p>
+              <p class="edu__school" data-i18n="edu.1.school">M2i Formation, Bordeaux</p>
+            </div>
+          </li>
+          <li class="edu__item reveal reveal--delay-1">
+            <span class="edu__year" data-i18n="edu.2.period">2016 — 2018</span>
+            <div>
+              <p class="edu__degree" data-i18n="edu.2.title">Master of Science, Electronics and Telecommunications</p>
+              <p class="edu__school" data-i18n="edu.2.school">ISEP, Paris</p>
+            </div>
+          </li>
+          <li class="edu__item reveal reveal--delay-2">
+            <span class="edu__year" data-i18n="edu.3.period">2012 — 2015</span>
+            <div>
+              <p class="edu__degree" data-i18n="edu.3.title">Bachelor of Engineering, Electrical and Electronics Engineering</p>
+              <p class="edu__school" data-i18n="edu.3.school">SSM College of Engineering, India</p>
+            </div>
+          </li>
+        </ul>
 
-		</script>
+        <ul class="lang reveal" aria-label="Languages">
+          <li class="lang__item"><strong data-i18n="lang.fr">French</strong><span class="lang__sep" aria-hidden="true"></span><span data-i18n="lang.fr.level">full professional</span></li>
+          <li class="lang__item"><strong data-i18n="lang.en">English</strong><span class="lang__sep" aria-hidden="true"></span><span data-i18n="lang.en.level">full professional</span></li>
+          <li class="lang__item"><strong data-i18n="lang.ta">Tamil</strong><span class="lang__sep" aria-hidden="true"></span><span data-i18n="lang.ta.level">native</span></li>
+        </ul>
+      </div>
+    </section>
 
-	</body>
+    <!-- ───────── Contact ───────── -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <svg class="deco deco--sparkle deco--sparkle-4" aria-hidden="true"><use href="#i-sparkle"/></svg>
+      <svg class="deco deco--plus deco--plus-4" aria-hidden="true"><use href="#i-plus"/></svg>
+      <div class="col col--wide">
+        <div class="contact-card reveal">
+          <span class="section__eyebrow" data-i18n="contact.eyebrow">Get in touch</span>
+          <h2 id="contact-title" data-i18n="contact.title">Let's build something together.</h2>
+          <p data-i18n="contact.lead">Open to senior frontend roles. Remote-EU or Paris. Send a note and I will get back within two business days.</p>
+          <div class="contact-card__cta">
+            <a class="btn btn--primary" href="mailto:parthidev03@gmail.com">
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+              parthidev03@gmail.com
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/parthiban-nagarajan" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+              LinkedIn
+            </a>
+            <a class="btn" href="https://github.com/parthidev93" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>
+              GitHub
+            </a>
+          </div>
+          <p class="contact-card__note">Le Port-Marly, France · CET</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="col col--wide footer__inner">
+      <span>© <span id="year"></span> <span class="footer__brand">Parthiban Nagarajan</span></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
 </html>
